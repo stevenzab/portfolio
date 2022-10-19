@@ -1,11 +1,9 @@
-### Hi there 👋
+### Hi 👋, I'm Steven
+
+<h3 align="center">Student at EPTIECH</h3>
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=stevenzab&theme=radical)
 
-<h1 align="center">Hi 👋, I'm Steven</h1>
-<h3 align="center">Student at EPTIECH</h3>
-
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
