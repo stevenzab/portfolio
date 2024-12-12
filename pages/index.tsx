@@ -1,6 +1,6 @@
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-[#F79256] min-h-screen">
       <h1>YEES!</h1>
     </div>
   );
