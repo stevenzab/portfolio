@@ -13,24 +13,24 @@ export default function NavBar() {
       <div className="sticky top-0 z-10">
         <div
           className="md:flex md:flex-row w-full md:items-center md:justify-between p-4"
-          style={{ backgroundColor: "#0A337B" }}
+          style={{ backgroundColor: "#FAF2D9" }}
         >
           <div className="md:flex items-center">
             <span className="text-2xl cursor-pointer relative md:left-8">
               <Link href="/">
-								<label className="text-white font-bold text-lg hover:text-green-400">Steven ZABANDITH</label>
+								<label className="text-black font-bold text-lg hover:text-green-600">Steven ZABANDITH</label>
               </Link>
             </span>
 
             {!open && (
               <button
                 onClick={() => setOpen(!open)}
-                className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+                className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden text-black"
               >
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="currentColor"
+                  stroke="black"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -50,7 +50,7 @@ export default function NavBar() {
                   <g clip-path="url(#clip0_712_7983)">
                     <path
                       d="M9 27L27 9M9 9L27 27"
-                      stroke="#111827"
+                      stroke="black"
                       stroke-width="3"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -58,7 +58,7 @@ export default function NavBar() {
                   </g>
                   <defs>
                     <clipPath id="clip0_712_7983">
-                      <rect width="36" height="36" rx="9" fill="white" />
+                      <rect width="36" height="36" rx="9" fill="transparent" />
                     </clipPath>
                   </defs>
                 </svg>
@@ -74,7 +74,7 @@ export default function NavBar() {
               <li className="mx-4 my-6 md:my-0">
                 <Link
                   href="/"
-                  className="md:text-xl hover:text-green-400 duration-500 text-white flex iems-center"
+                  className="md:text-xl hover:text-green-600 duration-500 text-black flex iems-center "
                   onClick={() => setOpen(false)}
                 >
                   <Image
@@ -89,7 +89,7 @@ export default function NavBar() {
               <li className="mx-4 my-6 md:my-0">
                 <Link
                   href="/about-page"
-                  className="md:text-xl text-sm hover:text-cyan-400 duration-500 text-white flex items-center"
+                  className="md:text-xl text-sm hover:text-cyan-600 duration-500 text-black flex items-center"
                   onClick={() => setOpen(false)}
                 >
                   <Image
@@ -99,21 +99,6 @@ export default function NavBar() {
                     className="mr-2 md:hidden"
                   />
                   A propos de Moi
-                </Link>
-              </li>
-              <li className="mx-4 my-6 md:my-0">
-                <Link
-                  href="/contact-page"
-                  className="md:text-xl text-sm hover:text-cyan-400 duration-500 text-white flex items-center"
-                  onClick={() => setOpen(false)}
-                >
-                  <Image
-                    src={CONTACT}
-                    alt="IA"
-                    width={30}
-                    className="mr-2 md:hidden"
-                  />
-                  Contact
                 </Link>
               </li>
             </ul>

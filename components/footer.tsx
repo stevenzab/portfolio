@@ -4,31 +4,31 @@ import Link from "next/link";
 export default function Footer(): React.JSX.Element {
   return (
     <>
-      <div className="bg-black text-white py-10 text-base">
+      <div className="text-black py-10 text-base" style={{backgroundColor: '#FAF2D9'}}>
         <div className="max-w-screen-lg lg:mx-auto md:mx-auto sm:mx-auto flex flex-col md:flex-row justify-between">
           <div className="flex-row md:items-center mb-5 md:mb-0 mx-auto">
-            <p className="font-semibold mb-5 border-b text-center inline-block">
+            <p className="font-semibold mb-5 border-b border-black text-center inline-block text-black">
               Steven
             </p>
             <ul className="space-y-3">
               <li>
-                <Link href="/about-page">A propos de moi</Link>
+                <Link href="/about-page" className="text-black hover:text-gray-600">A propos de moi</Link>
               </li>
               <li>
-                <Link href="/contact-page">Me contacter</Link>
+                <Link href="/contact-page" className="text-black hover:text-gray-600">Me contacter</Link>
               </li>
             </ul>
           </div>
           <div className="flex-row md:mb-0 mx-auto">
-            <p className="font-semibold mb-3 border-b text-center inline-block">
+            <p className="font-semibold mb-3 border-b border-black text-center inline-block text-black">
               Lien
             </p>
             <ul className="space-y-3">
               <li>
-                <Link href="https://github.com/stevenzab" target="_blank" rel="noopener noreferrer">Github</Link>
+                <Link href="https://github.com/stevenzab" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-600">Github</Link>
               </li>
               <li>
-                <Link href="https://www.linkedin.com/in/stevenzab/" target="_blank" rel="noopener noreferrer">Linkedin</Link>
+                <Link href="https://www.linkedin.com/in/stevenzab/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-600">Linkedin</Link>
               </li>
             </ul>
           </div>

@@ -6,12 +6,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
       <Navbar />
-      <div>
+      <div style={{backgroundColor: '#FAF2D9'}}>
         {children}
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
