@@ -18,8 +18,7 @@ export default function NavBar() {
           <div className="md:flex items-center">
             <span className="text-2xl cursor-pointer relative md:left-8">
               <Link href="/">
-								<label className="text-white font-bold text-lg hover:text-green-400">Steven</label>
-                {/* <Image src={LogoImage} alt="logo" width={55} height={55} /> */}
+								<label className="text-white font-bold text-lg hover:text-green-400">Steven ZABANDITH</label>
               </Link>
             </span>
 
