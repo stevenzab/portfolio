@@ -98,7 +98,37 @@ export default function NavBar() {
                     width={30}
                     className="mr-2 md:hidden"
                   />
-                  A propos de Moi
+                  A propos
+                </Link>
+              </li>
+              <li className="mx-4 my-6 md:my-0">
+                <Link
+                  href="/projects"
+                  className="md:text-xl text-sm hover:text-purple-600 duration-500 text-black flex items-center"
+                  onClick={() => setOpen(false)}
+                >
+                  <Image
+                    src={HOME}
+                    alt="Projets"
+                    width={30}
+                    className="mr-2 md:hidden"
+                  />
+                  Projets
+                </Link>
+              </li>
+              <li className="mx-4 my-6 md:my-0">
+                <Link
+                  href="/contact"
+                  className="md:text-xl text-sm hover:text-green-600 duration-500 text-black flex items-center"
+                  onClick={() => setOpen(false)}
+                >
+                  <Image
+                    src={CONTACT}
+                    alt="Contact"
+                    width={30}
+                    className="mr-2 md:hidden"
+                  />
+                  Contact
                 </Link>
               </li>
             </ul>

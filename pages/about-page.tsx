@@ -1,48 +1,186 @@
 
+import { User, Code, Trophy, Heart, Download, MapPin, Calendar } from "lucide-react";
+
 const AboutPage = () => {
   return (
-    <div className="max-w-3xl mx-auto py-10 px-4 text-black" style={{backgroundColor: '#FAF2D9'}}>
-      <h1 className="text-4xl font-bold mb-6 text-center text-black">Mon Portfolio</h1>
-      {/* Présentation */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2 text-black">Présentation</h2>
-        <p className="text-black">Bonjour, je m'appelle Steven ZABANDITH. Passionné par le développement web, je crée des applications modernes et performantes.</p>
-      </section>
-      {/* Compétences */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2 text-black">Compétences</h2>
-        <ul className="list-disc list-inside text-black">
-          <li>React / Next.js</li>
-          <li>TypeScript</li>
-          <li>Tailwind CSS</li>
-          <li>Node.js</li>
-          <li>UI/UX Design</li>
-        </ul>
-      </section>
-      {/* Expérience */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2 text-black">Expérience</h2>
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-bold text-black">Développeur FullStack - SPVIE ASSURANCE</h3>
-            <p className="text-black">Novembre 2024 - Août 2025</p>
-            <p className="text-black">Implémenté des développements itératifs et collaboratifs selon la méthode AGILE.</p>
-            <p className="text-black">Géré des cycles de développement courts à travers des sprints de deux semaines.</p>
-            <p className="text-black">Conçu et intégré des routes RESTful pour les API, facilitant l'accès aux données.</p>
+    <div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+      <div className="max-w-4xl mx-auto py-16 px-4">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-lg">
+            SZ
           </div>
-          <div>
-            <h3 className="font-bold text-black">Stage - Agence Digitale</h3>
-            <p className="text-black">2021 - 2022</p>
-            <p className="text-black">Participation à des projets de refonte de sites et développement d'outils internes.</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            À propos de moi
+          </h1>
+          <p className="text-xl text-gray-700 max-w-2xl mx-auto">
+            Développeur passionné avec une approche créative et technique pour créer des solutions innovantes.
+          </p>
+        </div>
+
+        {/* Présentation principale */}
+        <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+          <div className="flex items-center gap-3 mb-6">
+            <User className="w-8 h-8 text-blue-600" />
+            <h2 className="text-2xl font-bold text-gray-900">Qui suis-je ?</h2>
+          </div>
+          <div className="prose prose-lg text-gray-700">
+            <p className="mb-4">
+              Bonjour ! Je m'appelle <strong>Steven ZABANDITH</strong>, développeur FullStack passionné par la création d'applications web modernes et performantes. 
+              Avec une solide expérience en développement frontend et backend, je transforme les idées en solutions digitales concrètes.
+            </p>
+            <p className="mb-4">
+              Mon parcours m'a mené à travailler sur des projets variés, de la conception d'interfaces utilisateur intuitives au développement d'APIs robustes. 
+              J'aime particulièrement les défis techniques et l'apprentissage continu de nouvelles technologies.
+            </p>
+            <p>
+              Actuellement, je me spécialise dans l'écosystème JavaScript/TypeScript (React, Next.js) côté frontend 
+              et C#/.NET côté backend, tout en appliquant les meilleures pratiques de développement agile.
+            </p>
           </div>
         </div>
-      </section>
-      {/* Contact */}
-      <section>
-        <h2 className="text-2xl font-semibold mb-2 text-black">Contact</h2>
-        <p className="text-black">Email : steven.zab@email.com</p>
-        <p className="text-black">LinkedIn : <a href="https://linkedin.com/in/stevenzab" className="text-blue-600 underline hover:text-blue-800">stevenzab</a></p>
-      </section>
+
+        {/* Compétences et Expertise */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="flex items-center gap-3 mb-6">
+              <Code className="w-8 h-8 text-green-600" />
+              <h2 className="text-2xl font-bold text-gray-900">Expertise Technique</h2>
+            </div>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Frontend</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">React</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Next.js</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Angular</span>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Backend</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Node.js</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">C#</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">.NET 8</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">API REST</span>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Outils & Méthodes</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Git</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Agile</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Figma</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Tests unitaires</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="flex items-center gap-3 mb-6">
+              <Heart className="w-8 h-8 text-red-600" />
+              <h2 className="text-2xl font-bold text-gray-900">Mes Passions</h2>
+            </div>
+            <ul className="space-y-3 text-gray-700">
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
+                <span>Développement de solutions innovantes et scalables</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
+                <span>Optimisation des performances et de l'expérience utilisateur</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
+                <span>Veille technologique et apprentissage continu</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
+                <span>Collaboration en équipe et partage de connaissances</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
+                <span>Clean code et bonnes pratiques de développement</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Parcours */}
+        <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+          <div className="flex items-center gap-3 mb-6">
+            <Trophy className="w-8 h-8 text-yellow-600" />
+            <h2 className="text-2xl font-bold text-gray-900">Mon Parcours</h2>
+          </div>
+          <div className="space-y-6">
+            <div className="border-l-4 border-blue-500 pl-6">
+              <div className="flex items-center gap-2 mb-2">
+                <Calendar className="w-4 h-4 text-gray-500" />
+                <span className="text-sm text-gray-500">Novembre 2024 - Août 2025</span>
+              </div>
+              <h3 className="font-bold text-lg text-gray-900">Développeur FullStack - SPVIE ASSURANCE</h3>
+              <p className="text-gray-600">
+                Développement en méthode Agile avec des sprints de 2 semaines. Conception et intégration d'APIs RESTful, 
+                refactorisation du code et application des principes de la POO pour améliorer la maintenabilité.
+              </p>
+            </div>
+            
+            <div className="border-l-4 border-green-500 pl-6">
+              <div className="flex items-center gap-2 mb-2">
+                <Calendar className="w-4 h-4 text-gray-500" />
+                <span className="text-sm text-gray-500">Septembre 2024 - Octobre 2024</span>
+              </div>
+              <h3 className="font-bold text-lg text-gray-900">Développeur FullStack - Pathline</h3>
+              <p className="text-gray-600">
+                Optimisation des performances, refactorisation du code et développement de routes RESTful. 
+                Collaboration avec l'équipe design pour améliorer l'expérience utilisateur.
+              </p>
+            </div>
+            
+            <div className="border-l-4 border-purple-500 pl-6">
+              <div className="flex items-center gap-2 mb-2">
+                <Calendar className="w-4 h-4 text-gray-500" />
+                <span className="text-sm text-gray-500">Juin 2023 - Août 2023</span>
+              </div>
+              <h3 className="font-bold text-lg text-gray-900">Développeur Frontend - Federage</h3>
+              <p className="text-gray-600">
+                Maintenance d'interfaces utilisateur, conception de maquettes avec Figma, création de parcours utilisateurs 
+                et développement de prototypes fonctionnels.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact et CV */}
+        <div className="text-center">
+          <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl shadow-lg p-8 text-white">
+            <h2 className="text-2xl font-bold mb-4">Travaillons ensemble !</h2>
+            <p className="mb-6 max-w-2xl mx-auto">
+              Je suis toujours ouvert aux nouvelles opportunités et aux projets passionnants. 
+              N'hésitez pas à me contacter pour discuter de vos besoins.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <button className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+                <Download className="w-5 h-5" />
+                Télécharger mon CV
+              </button>
+              <a 
+                href="/contact"
+                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-semibold transition"
+              >
+                Me contacter
+              </a>
+            </div>
+            <div className="mt-6 flex items-center justify-center gap-2 text-blue-100">
+              <MapPin className="w-4 h-4" />
+              <span>Basé en France</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

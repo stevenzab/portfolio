@@ -1,30 +1,87 @@
-import { Briefcase } from "lucide-react";
+import { Briefcase, Mail, Github, Linkedin, Download, Code, Palette, Database } from "lucide-react";
 
 const HomePage = () => {
   return (
-<div className="max-w-3xl mx-auto py-10 px-4 text-black" style={{backgroundColor: '#FAF2D9'}}>
-      <h1 className="text-4xl font-bold mb-6 text-center text-black">Mon Portfolio</h1>
-      {/* Présentation */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2 text-black">Présentation</h2>
-        <p className="text-black">Bonjour, je m'appelle Steven Zab. Passionné par le développement web, je crée des applications modernes et performantes.</p>
+<div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+      {/* Hero Section */}
+      <section className="relative py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-8">
+            <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-lg">
+              SZ
+            </div>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+              Steven <span className="text-blue-600">ZABANDITH</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-700 mb-6">
+              Développeur FullStack passionné
+            </p>
+            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+              Je crée des applications web modernes et performantes avec React, Next.js et .NET. 
+              Spécialisé dans le développement agile et l'optimisation des performances.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 mb-8">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+                <Mail className="w-5 h-5" />
+                Me contacter
+              </button>
+              <button className="border-2 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+                <Download className="w-5 h-5" />
+                Télécharger CV
+              </button>
+            </div>
+            <div className="flex justify-center gap-6">
+              <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+                <Github className="w-6 h-6" />
+              </a>
+              <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+                <Linkedin className="w-6 h-6" />
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
-      {/* Compétences */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2 text-black">Compétences</h2>
-        <ul className="list-disc list-inside text-black">
-          <li>React / Next.js</li>
-          <li>TypeScript</li>
-          <li>Tailwind CSS</li>
-          <li>Node.js</li>
-          <li>C#</li>
-          <li>.Net 8</li>
-          <li>Angular</li>
-        </ul>
+
+      <div className="max-w-4xl mx-auto px-4 pb-10">
+      {/* Compétences avec icônes */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Mes Compétences</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition text-center">
+            <Code className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+            <h3 className="font-bold text-lg mb-3 text-gray-900">Frontend</h3>
+            <ul className="text-gray-700 space-y-1">
+              <li>React / Next.js</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+              <li>Angular</li>
+            </ul>
+          </div>
+          <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition text-center">
+            <Database className="w-12 h-12 text-green-600 mx-auto mb-4" />
+            <h3 className="font-bold text-lg mb-3 text-gray-900">Backend</h3>
+            <ul className="text-gray-700 space-y-1">
+              <li>Node.js</li>
+              <li>C# / .NET 8</li>
+              <li>API RESTful</li>
+              <li>Base de données</li>
+            </ul>
+          </div>
+          <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition text-center">
+            <Palette className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+            <h3 className="font-bold text-lg mb-3 text-gray-900">Méthodes</h3>
+            <ul className="text-gray-700 space-y-1">
+              <li>Méthode Agile</li>
+              <li>Tests unitaires</li>
+              <li>POO</li>
+              <li>Code Review</li>
+            </ul>
+          </div>
+        </div>
       </section>
-      {/* Expérience */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2 text-black">Expérience</h2>
+      {/* Expérience Professionnelle */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Expérience Professionnelle</h2>
         <div className="space-y-4">
           <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
             <div className="flex items-center gap-3 mb-2">
@@ -89,16 +146,68 @@ const HomePage = () => {
         </div>
       </section>
       {/* Projets */}
-            <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2 text-black">Projets</h2>
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-bold text-black">Développeur FullStack</h3>
-            <p className="text-black">2023 - 2025</p>
-            <p className="text-black">Fôpagacher</p>
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Projets Récents</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div className="bg-gradient-to-r from-blue-500 to-purple-600 h-48 flex items-center justify-center">
+              <Code className="w-16 h-16 text-white" />
+            </div>
+            <div className="p-6">
+              <h3 className="font-bold text-xl mb-2 text-gray-900">Portfolio Personnel</h3>
+              <p className="text-gray-600 mb-4">Site vitrine développé avec Next.js et Tailwind CSS</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Next.js</span>
+                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
+                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Tailwind</span>
+              </div>
+              <div className="flex gap-3">
+                <button className="text-blue-600 hover:text-blue-800 font-semibold">Voir le code</button>
+                <button className="text-blue-600 hover:text-blue-800 font-semibold">Démo live</button>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div className="bg-gradient-to-r from-green-500 to-teal-600 h-48 flex items-center justify-center">
+              <Database className="w-16 h-16 text-white" />
+            </div>
+            <div className="p-6">
+              <h3 className="font-bold text-xl mb-2 text-gray-900">Application Web SPVIE</h3>
+              <p className="text-gray-600 mb-4">Développement d'APIs RESTful en méthode Agile</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">.NET 8</span>
+                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">API REST</span>
+              </div>
+              <div className="flex gap-3">
+                <button className="text-gray-400 cursor-not-allowed font-semibold">Projet privé</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+      {/* Call to Action */}
+      <section className="text-center py-12">
+        <div className="bg-white rounded-2xl shadow-lg p-8">
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Prêt à collaborer ?</h2>
+          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+            Je suis disponible pour des projets freelance ou des opportunités en CDI. 
+            Contactez-moi pour discuter de vos besoins.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+              <Mail className="w-5 h-5" />
+              steven.zab@email.com
+            </button>
+            <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition">
+              Voir mon LinkedIn
+            </button>
+          </div>
+        </div>
+      </section>
+      </div>
     </div>
   );
 };
