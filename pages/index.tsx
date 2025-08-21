@@ -199,7 +199,7 @@ const HomePage = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition flex items-center gap-2">
               <Mail className="w-5 h-5" />
-              steven.zab@email.com
+              zabandithsteven@gmail.com
             </button>
             <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition">
               Voir mon LinkedIn

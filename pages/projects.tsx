@@ -1,4 +1,5 @@
 import { Code, Database, Palette, Github, ExternalLink, Calendar, Users } from "lucide-react";
+import Link from "next/link";
 
 const ProjectsPage = () => {
   const projects = [
@@ -217,13 +218,12 @@ const ProjectsPage = () => {
               pour discuter d'une collaboration.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a 
-                href="#" 
-                className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2"
-              >
-                <Github className="w-5 h-5" />
-                Voir GitHub
-              </a>
+                <a href="#" className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+                    <Github className="w-5 h-5" />
+                    <Link href="https://github.com/stevenzab" target="_blank" rel="noopener noreferrer">
+                        Voir GitHub
+                    </Link>
+                </a>
               <a 
                 href="/contact" 
                 className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 py-3 rounded-lg font-semibold transition"
