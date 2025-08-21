@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { Linkedin, Github } from "lucide-react";
 
 export default function Footer(): React.JSX.Element {
   return (
@@ -22,9 +23,11 @@ export default function Footer(): React.JSX.Element {
             </p>
             <ul className="space-y-3">
               <li>
+                <Github className="inline-block mr-2" />
                 <Link href="https://github.com/stevenzab" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-600">Github</Link>
               </li>
               <li>
+                <Linkedin className="inline-block mr-2" />
                 <Link href="https://www.linkedin.com/in/stevenzab/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-600">Linkedin</Link>
               </li>
             </ul>

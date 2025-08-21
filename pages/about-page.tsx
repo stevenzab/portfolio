@@ -6,7 +6,7 @@ const AboutPage = () => {
       {/* Présentation */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2 text-black">Présentation</h2>
-        <p className="text-black">Bonjour, je m'appelle Steven Zab. Passionné par le développement web, je crée des applications modernes et performantes.</p>
+        <p className="text-black">Bonjour, je m'appelle Steven ZABANDITH. Passionné par le développement web, je crée des applications modernes et performantes.</p>
       </section>
       {/* Compétences */}
       <section className="mb-8">
@@ -24,9 +24,11 @@ const AboutPage = () => {
         <h2 className="text-2xl font-semibold mb-2 text-black">Expérience</h2>
         <div className="space-y-4">
           <div>
-            <h3 className="font-bold text-black">Développeur Web - Freelance</h3>
-            <p className="text-black">2022 - Présent</p>
-            <p className="text-black">Création de sites web et applications pour divers clients.</p>
+            <h3 className="font-bold text-black">Développeur FullStack - SPVIE ASSURANCE</h3>
+            <p className="text-black">Novembre 2024 - Août 2025</p>
+            <p className="text-black">Implémenté des développements itératifs et collaboratifs selon la méthode AGILE.</p>
+            <p className="text-black">Géré des cycles de développement courts à travers des sprints de deux semaines.</p>
+            <p className="text-black">Conçu et intégré des routes RESTful pour les API, facilitant l'accès aux données.</p>
           </div>
           <div>
             <h3 className="font-bold text-black">Stage - Agence Digitale</h3>
