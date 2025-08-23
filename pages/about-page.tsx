@@ -56,24 +56,41 @@ const AboutPage = () => {
                   <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
                   <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
                   <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Angular</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Bootstrap</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">NextJS</span>
+
                 </div>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Backend</h3>
                 <div className="flex flex-wrap gap-2">
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Node.js</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Express</span>
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">C#</span>
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">.NET 8</span>
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">API REST</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">NestJs</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Python</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Django</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Flask</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">MySQL</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">MongoDB</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">NestJS/TS</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">PHP</span>
                 </div>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Outils & Méthodes</h3>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Git</span>
-                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Agile</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Github</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Gitlab</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Linux</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Agile Scrum</span>
                   <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Figma</span>
-                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Tests unitaires</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Test Driven Development</span>
                 </div>
               </div>
             </div>
@@ -87,23 +104,23 @@ const AboutPage = () => {
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
-                <span>Développement de solutions innovantes et scalables</span>
+                <span>J'aime faire du sport, courir, et me maintenir en forme.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
-                <span>Optimisation des performances et de l'expérience utilisateur</span>
+                <span>Basket: je joue de temps en temps avec des amis.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
-                <span>Veille technologique et apprentissage continu</span>
+                <span>Jeux vidéo: j'aime jouer à des jeux compétitifs et coopératifs.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
-                <span>Collaboration en équipe et partage de connaissances</span>
+                <span>Mangas: j'aime lire des mangas.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-500 rounded-full mt-2"></span>
-                <span>Clean code et bonnes pratiques de développement</span>
+                <span>Musique: j'aime écouter différents genres musicaux.</span>
               </li>
             </ul>
           </div>

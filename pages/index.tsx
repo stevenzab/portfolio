@@ -121,7 +121,7 @@ const HomePage = () => {
               <li>Collaboration avec l'équipe de design pour améliorer l'expérience utilisateur.</li>
             </ul>
           </div>
-                    <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+          <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
             <div className="flex items-center gap-3 mb-2">
               <Briefcase className="w-6 h-6 text-blue-600" />
               <h3 className="font-bold text-lg text-gray-900">
@@ -141,6 +141,24 @@ const HomePage = () => {
               <li>Réalisation de prototypes fonctionnels pour valider les choix de design.</li>
               <li>Tests utilisateurs pour recueillir des retours et ajuster les interfaces.</li>
               <li>Implémentation de solutions pour améliorer la performance de l'application.</li>
+            </ul>
+          </div>
+          <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+            <div className="flex items-center gap-3 mb-2">
+              <Briefcase className="w-6 h-6 text-blue-600" />
+              <h3 className="font-bold text-lg text-gray-900">
+                Développeur FrontEnd
+              </h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              SPVIE ASSURANCE • Août 2021 - Décembre 2021
+            </p>
+            <ul className="list-disc list-inside text-gray-800 mt-3 space-y-1">
+              <li>Refactorisation: simplification et optimisation du code.</li>
+              <li>Développement de nouvelles fonctionnalités pour améliorer l'expérience utilisateur.</li>
+              <li>Documentation: création de documents techniques pour faciliter la maintenance.</li>
+              <li>Linq: utilisation de Linq pour simplifier les requêtes de données.</li>
+              <li>Tests: mise en place de tests unitaires pour garantir la qualité du code.</li>
             </ul>
           </div>
         </div>
