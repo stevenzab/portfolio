@@ -13,7 +13,7 @@ export default function Footer(): React.JSX.Element {
             </p>
             <ul className="space-y-3">
               <li>
-                <Link href="/about-page" className="text-black hover:text-gray-600">zabandithsteven@gmail.com</Link>
+                <Link href="mailto:zabandithsteven@gmail.com" className="text-black hover:text-gray-600">zabandithsteven@gmail.com</Link>
               </li>
             </ul>
           </div>

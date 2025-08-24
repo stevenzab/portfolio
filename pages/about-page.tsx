@@ -136,36 +136,29 @@ const AboutPage = () => {
             <div className="border-l-4 border-blue-500 pl-6">
               <div className="flex items-center gap-2 mb-2">
                 <Calendar className="w-4 h-4 text-gray-500" />
-                <span className="text-sm text-gray-500">Novembre 2024 - Août 2025</span>
+                <span className="text-sm text-gray-500">2020 - 2025</span>
               </div>
-              <h3 className="font-bold text-lg text-gray-900">Développeur FullStack - SPVIE ASSURANCE</h3>
-              <p className="text-gray-600">
-                Développement en méthode Agile avec des sprints de 2 semaines. Conception et intégration d'APIs RESTful, 
-                refactorisation du code et application des principes de la POO pour améliorer la maintenabilité.
-              </p>
+              <h3 className="font-bold text-lg text-gray-900">EPITECH - Expert en technologie de l'information</h3>
+              <ul className="list-disc list-inside text-gray-600 mt-3 space-y-2">
+                <li>Formation intensive en développement logiciel, gestion de projets et technologies émergentes</li>
+                <li>Projets pratiques incluant la création d'applications web et mobiles, TCP / UDP</li>
+                <li>Pédagogie par projet : travail en équipe et immersion professionnelle</li>
+                <li><strong>Association Cobra</strong> : initiation des lycéens au code, organisation de coding clubs et speed coding</li>
+                <li><strong>Projet de fin d'études</strong> : Fôpagacher</li>
+              </ul>
             </div>
-            
             <div className="border-l-4 border-green-500 pl-6">
               <div className="flex items-center gap-2 mb-2">
                 <Calendar className="w-4 h-4 text-gray-500" />
-                <span className="text-sm text-gray-500">Septembre 2024 - Octobre 2024</span>
+                <span className="text-sm text-gray-500">Août 2023 - Octobre 2024</span>
               </div>
-              <h3 className="font-bold text-lg text-gray-900">Développeur FullStack - Pathline</h3>
+              <h3 className="font-bold text-lg text-gray-900">California State University LongBeach - Echange universitaire</h3>
               <p className="text-gray-600">
-                Optimisation des performances, refactorisation du code et développement de routes RESTful. 
-                Collaboration avec l'équipe design pour améliorer l'expérience utilisateur.
-              </p>
-            </div>
-            
-            <div className="border-l-4 border-purple-500 pl-6">
-              <div className="flex items-center gap-2 mb-2">
-                <Calendar className="w-4 h-4 text-gray-500" />
-                <span className="text-sm text-gray-500">Juin 2023 - Août 2023</span>
-              </div>
-              <h3 className="font-bold text-lg text-gray-900">Développeur Frontend - Federage</h3>
-              <p className="text-gray-600">
-                Maintenance d'interfaces utilisateur, conception de maquettes avec Figma, création de parcours utilisateurs 
-                et développement de prototypes fonctionnels.
+                  Semestre d’échange universitaire axé sur le développement web fullstack et la collaboration interdisciplinaire. 
+                  Participation à des projets en équipe et à des ateliers pratiques. 
+                  Cours suivis en développement web, C++ et Python. 
+                  Développement de compétences en autonomie, prise d’initiatives et travail collaboratif.
+                  Réalisation et avancement du projet de fin d’études.
               </p>
             </div>
           </div>
@@ -180,10 +173,12 @@ const AboutPage = () => {
               N'hésitez pas à me contacter pour discuter de vos besoins.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
-                <Download className="w-5 h-5" />
-                Télécharger mon CV
-              </button>
+              <a href="/CV_Développeur_Fullstack.pdf" download="CV_Développeur_Fullstack.pdf">
+                <button className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+                  <Download className="w-5 h-5" />
+                  Télécharger mon CV
+                </button>
+              </a>
               <a 
                 href="/contact"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-semibold transition"

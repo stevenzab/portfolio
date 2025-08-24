@@ -1,4 +1,5 @@
 import { Briefcase, Mail, Github, Linkedin, Download, Code, Palette, Database } from "lucide-react";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -21,14 +22,18 @@ const HomePage = () => {
               Spécialisé dans le développement agile et l'optimisation des performances.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
+              <Link href="mailto:zabandithsteven@gmail.com">
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
                 <Mail className="w-5 h-5" />
                 Me contacter
               </button>
-              <button className="border-2 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
-                <Download className="w-5 h-5" />
-                Télécharger CV
-              </button>
+              </Link>
+              <a href="/CV_Développeur_Fullstack.pdf" download="CV_Développeur_Fullstack.pdf">
+                <button className="border-2 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+                  <Download className="w-5 h-5" />
+                  Télécharger CV
+                </button> 
+              </a>
             </div>
             <div className="flex justify-center gap-6">
               <a href="#" className="text-gray-600 hover:text-blue-600 transition">
@@ -215,13 +220,17 @@ const HomePage = () => {
             Contactez-moi pour discuter de vos besoins.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition flex items-center gap-2">
-              <Mail className="w-5 h-5" />
-              zabandithsteven@gmail.com
-            </button>
-            <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition">
-              Voir mon LinkedIn
-            </button>
+            <Link href="mailto:zabandithsteven@gmail.com">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition flex items-center gap-2">
+                <Mail className="w-5 h-5" />
+                zabandithsteven@gmail.com
+              </button>
+            </Link>
+            <Link href="https://www.linkedin.com/in/stevenzab/" target="_blank" rel="noopener noreferrer">
+              <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition">
+                Voir mon LinkedIn
+              </button>
+            </Link>
           </div>
         </div>
       </section>
