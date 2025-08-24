@@ -47,13 +47,13 @@ export default function NavBar() {
                 onClick={() => setOpen(!open)}
               >
                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-                  <g clip-path="url(#clip0_712_7983)">
+                  <g clipPath="url(#clip0_712_7983)">
                     <path
                       d="M9 27L27 9M9 9L27 27"
                       stroke="black"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                   <defs>

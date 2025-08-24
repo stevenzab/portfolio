@@ -49,17 +49,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">steven.zab@email.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-green-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Téléphone</h3>
-                    <p className="text-gray-600">+33 X XX XX XX XX</p>
+                    <p className="text-gray-600">zabandithdsteven@gmail.com</p>
                   </div>
                 </div>
 
@@ -69,7 +59,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Localisation</h3>
-                    <p className="text-gray-600">France</p>
+                    <p className="text-gray-600">Île-de-France</p>
                   </div>
                 </div>
               </div>
