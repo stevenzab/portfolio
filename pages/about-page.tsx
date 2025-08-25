@@ -179,12 +179,12 @@ const AboutPage = () => {
                   Télécharger mon CV
                 </button>
               </a>
-              <a 
+              {/* <a 
                 href="/contact"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-semibold transition"
               >
                 Me contacter
-              </a>
+              </a> */}
             </div>
             <div className="mt-6 flex items-center justify-center gap-2 text-blue-100">
               <MapPin className="w-4 h-4" />

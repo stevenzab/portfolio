@@ -60,6 +60,7 @@ const HomePage = () => {
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
               <li>Angular</li>
+              <li>Javascript</li>
             </ul>
           </div>
           <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition text-center">
@@ -70,14 +71,16 @@ const HomePage = () => {
               <li>C# / .NET 8</li>
               <li>API RESTful</li>
               <li>Base de données</li>
+              <li>Nestjs</li>
             </ul>
           </div>
           <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition text-center">
             <Palette className="w-12 h-12 text-purple-600 mx-auto mb-4" />
             <h3 className="font-bold text-lg mb-3 text-gray-900">Méthodes</h3>
             <ul className="text-gray-700 space-y-1">
-              <li>Méthode Agile</li>
+              <li>Méthode Agile SCRUM</li>
               <li>Tests unitaires</li>
+              <li>Test Driven Development (TDD)</li>
               <li>POO</li>
               <li>Code Review</li>
             </ul>
@@ -183,11 +186,12 @@ const HomePage = () => {
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Next.js</span>
                 <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
                 <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Tailwind</span>
+                <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">React</span>
               </div>
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 <button className="text-blue-600 hover:text-blue-800 font-semibold">Voir le code</button>
                 <button className="text-blue-600 hover:text-blue-800 font-semibold">Démo live</button>
-              </div>
+              </div> */}
             </div>
           </div>
           
@@ -196,16 +200,21 @@ const HomePage = () => {
               <Database className="w-16 h-16 text-white" />
             </div>
             <div className="p-6">
-              <h3 className="font-bold text-xl mb-2 text-gray-900">Application Web SPVIE</h3>
+              <h3 className="font-bold text-xl mb-2 text-gray-900">Application Web SPVIE ASSURANCE (SOFIA)</h3>
               <p className="text-gray-600 mb-4">Développement d'APIs RESTful en méthode Agile</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
                 <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">.NET 8</span>
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">API REST</span>
+                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Angular</span>
+                <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">MongoDB</span>
+                <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Typescript</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">SQL</span>
+                <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">OOP</span>
               </div>
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 <button className="text-gray-400 cursor-not-allowed font-semibold">Projet privé</button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
