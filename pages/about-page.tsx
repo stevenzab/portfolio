@@ -34,7 +34,7 @@ const AboutPage = () => {
               J'aime particulièrement les défis techniques et l'apprentissage continu de nouvelles technologies.
             </p>
             <p>
-              Actuellement, je me spécialise dans l'écosystème JavaScript/TypeScript (React, Next.js) côté frontend 
+              Actuellement, je me spécialise dans l'écosystème JavaScript/TypeScript (React, Next.js, Angular) côté frontend 
               et C#/.NET côté backend, tout en appliquant les meilleures pratiques de développement agile.
             </p>
           </div>
