@@ -8,9 +8,7 @@ Bienvenue sur mon portfolio personnel ! Ce site vitrine présente mes compétenc
 
 - **Design moderne** : Interface épurée et professionnelle
 - **Responsive Design** : Optimisé pour tous les appareils
-- **Animations fluides** : Transitions et interactions engageantes
 - **Performance optimisée** : Chargement rapide et SEO-friendly
-- **Formulaire de contact** : Interaction directe avec les visiteurs
 
 ## 🛠️ Technologies utilisées
 
