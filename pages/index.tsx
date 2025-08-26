@@ -155,7 +155,7 @@ const HomePage = () => {
             <div className="flex items-center gap-3 mb-2">
               <Briefcase className="w-6 h-6 text-blue-600" />
               <h3 className="font-bold text-lg text-gray-900">
-                Développeur FrontEnd
+                Développeur FullStack
               </h3>
             </div>
             <p className="text-gray-600 text-sm">
