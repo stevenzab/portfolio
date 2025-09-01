@@ -2,6 +2,7 @@ import { Code, Database, Palette, Github, ExternalLink, Calendar, Users } from "
 import Link from "next/link";
 import Image from "next/image";
 import fopagacherImage from "../assets/fopagacher.png";
+import SpvieAssurance from "../assets/spvie.png";
 
 const ProjectsPage = () => {
   const projects = [
@@ -26,7 +27,8 @@ const ProjectsPage = () => {
       id: 2,
       title: "Application SPVIE ASSURANCE",
       description: "Développement d'APIs RESTful et interfaces utilisateur dans un environnement Agile. Intégration de solutions backend robustes.",
-      image: "gradient-green-teal",
+      image: SpvieAssurance,
+      imageType: "import",
       technologies: ["C#", ".NET 8", "SQL", "Angular19", "MongoDB", "Typescript", "Azure DevOps"],
       features: [
         "APIs RESTful performantes",
@@ -37,7 +39,7 @@ const ProjectsPage = () => {
       githubUrl: null,
       liveUrl: null,
       date: "2024-2025",
-      status: "En cours"
+      status: "Terminé"
     },
     {
       id: 3,
