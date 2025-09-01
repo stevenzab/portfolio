@@ -116,7 +116,7 @@ Les suggestions d'amélioration sont les bienvenues ! N'hésitez pas à :
 ## 📞 Contact
 
 **Steven ZABANDITH**
-- Email : steven.zab@email.com
+- Email : zabandithsteven@gmail.com
 - LinkedIn : [stevenzab](https://linkedin.com/in/stevenzab)
 - GitHub : [stevenzab](https://github.com/stevenzab)
 
