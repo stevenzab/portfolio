@@ -91,6 +91,7 @@ const AboutPage = () => {
                   <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Agile Scrum</span>
                   <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Figma</span>
                   <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Test Driven Development</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">SOLID</span>
                 </div>
               </div>
             </div>
@@ -173,7 +174,7 @@ const AboutPage = () => {
               N'hésitez pas à me contacter pour discuter de vos besoins.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="/CV_Développeur_Fullstack.pdf" download="CV_Développeur_Fullstack.pdf">
+              <a href="/CV_DEVELOPER_FULLSTACK.pdf" download="CV_Développeur_Fullstack.pdf">
                 <button className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
                   <Download className="w-5 h-5" />
                   Télécharger mon CV

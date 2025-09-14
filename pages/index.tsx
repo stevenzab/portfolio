@@ -28,7 +28,7 @@ const HomePage = () => {
                 Me contacter
               </button>
               </Link>
-              <a href="/CV_Développeur_Fullstack.pdf" download="CV_Développeur_Fullstack.pdf">
+              <a href="/CV_DEVELOPER_FULLSTACK.pdf" download="CV_Développeur_Fullstack.pdf">
                 <button className="border-2 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
                   <Download className="w-5 h-5" />
                   Télécharger CV
