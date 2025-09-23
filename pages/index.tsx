@@ -81,7 +81,8 @@ const HomePage = () => {
               <li>Méthode Agile SCRUM</li>
               <li>Tests unitaires</li>
               <li>Test Driven Development (TDD)</li>
-              <li>POO</li>
+              <li>SOLID</li>
+              <li>OOP</li>
               <li>Code Review</li>
             </ul>
           </div>
@@ -95,7 +96,7 @@ const HomePage = () => {
             <div className="flex items-center gap-3 mb-2">
               <Briefcase className="w-6 h-6 text-blue-600" />
               <h3 className="font-bold text-lg text-gray-900">
-                Développeur FullStack
+                Développeur FullStack C# | .NET8
               </h3>
             </div>
             <p className="text-gray-600 text-sm">
@@ -113,7 +114,7 @@ const HomePage = () => {
             <div className="flex items-center gap-3 mb-2">
               <Briefcase className="w-6 h-6 text-blue-600" />
               <h3 className="font-bold text-lg text-gray-900">
-                Développeur FullStack
+                Développeur FullStack React | Node.js
               </h3>
             </div>
             <p className="text-gray-600 text-sm">
@@ -133,7 +134,7 @@ const HomePage = () => {
             <div className="flex items-center gap-3 mb-2">
               <Briefcase className="w-6 h-6 text-blue-600" />
               <h3 className="font-bold text-lg text-gray-900">
-                Développeur FrontEnd
+                Développeur FrontEnd React | Figma | NextJS
               </h3>
             </div>
             <p className="text-gray-600 text-sm">
@@ -155,7 +156,7 @@ const HomePage = () => {
             <div className="flex items-center gap-3 mb-2">
               <Briefcase className="w-6 h-6 text-blue-600" />
               <h3 className="font-bold text-lg text-gray-900">
-                Développeur FullStack
+                Développeur FullStack C# | ASP.NET MVC
               </h3>
             </div>
             <p className="text-gray-600 text-sm">

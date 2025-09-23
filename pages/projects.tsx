@@ -119,6 +119,31 @@ const ProjectsPage = () => {
       liveUrl: "#",
       date: "2022",
       status: "Terminé"
+    },
+    {
+      id: 7,
+      title: "Progessive Web App (PWA) - Recettes de Cuisine",
+      description: "Développement d'une application web progressive (PWA) pour la gestion et la consultation de recettes de cuisine, offrant une expérience utilisateur fluide et hors ligne.",
+      image: "gradient-green-teal",
+      technologies: ["React", "IndexedDB", "Service Workers", "Tailwind CSS", "Typescript", "Github", "Firebase", "Node.js", "Express"],
+      features: [
+        "Fonctionnalités hors ligne avec IndexedDB",
+        "Installation sur l'écran d'accueil",
+        "Notifications push pour les nouvelles recettes",
+        "Interface utilisateur responsive avec Tailwind CSS",
+        "Recherche et filtrage avancés",
+        "Gestion des favoris",
+        "API RESTful avec Node.js et Express",
+        "Authentification utilisateur avec Firebase Auth",
+        "Stockage des données avec Firebase Firestore",
+        "Déploiement sur Firebase Hosting",
+        "Tests unitaires avec Jest et React Testing Library",
+        "Utilisation de Service Workers pour la mise en cache"
+      ],
+      githubUrl: "#",
+      liveUrl: "#",
+      date: "2024",
+      status: "Terminé"
     }
   ];
 
