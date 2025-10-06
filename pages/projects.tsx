@@ -78,11 +78,11 @@ const ProjectsPage = () => {
     },
     {
       id: 5,
-      title: "Fôpagacher",
-      description: "Développement du site vitrine et d'une application mobile Fôpagacher, qui consiste à réduire le gaspillage alimentaire",
+      title: "Fopagâcher",
+      description: "Développement du site vitrine et d'une application mobile Fopagâcher, qui consiste à réduire le gaspillage alimentaire",
       image: fopagacherImage,
       imageType: "import",
-      technologies: ["React", "Nestjs", "Nextjs", "Typescript", "React", "PostgreSQL", "Gitlab"],
+      technologies: ["React", "Nestjs", "Nextjs", "Typescript", "PostgreSQL", "Gitlab"],
       features: [
         "Gestion des utilisateurs",
         "Proposition de Recettes Anti-Gaspillage avec une IA",
@@ -255,14 +255,16 @@ const ProjectsPage = () => {
                 {/* Fonctionnalités */}
                 <div className="mb-6">
                   <h4 className="font-semibold text-gray-900 mb-2">Fonctionnalités clés</h4>
+                  {project.features.length > 0 && (
                   <ul className="text-gray-600 text-sm space-y-1">
-                    {project.features.map((feature, index) => (
-                      <li key={index} className="flex items-center">
-                        <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
-                        {feature}
-                      </li>
-                    ))}
+                      {project.features.map((feature, index) => (
+                        <li key={index} className="flex items-center">
+                          <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                          {feature}
+                        </li>
+                      ))}
                   </ul>
+                  )}
                 </div>
 
                 {/* Actions */}
