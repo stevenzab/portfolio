@@ -105,9 +105,12 @@ const HomePage = () => {
             <ul className="list-disc list-inside text-gray-800 mt-3 space-y-1">
               <li>Développements itératifs en méthode Agile (sprints 2 semaines).</li>
               <li>Conception et intégration d’API RESTful.</li>
+              <li>Création de composants modulaires, gestion du state via services injectables, data-binding avancé, formulaires dynamiques avec validation côté client.</li>
               <li>Refactorisation et optimisation du code.</li>
               <li>Application de la POO pour la maintenabilité.</li>
+              <li>Application des principes SOLID, respect du TDD, séparation claire des responsabilités pour garantir maintenabilité et évolutivité.</li>
               <li>Participation aux revues de code collaboratives.</li>
+              <li>Utilisation d’abstractions, interfaces, héritage et encapsulation pour concevoir une architecture robuste et évolutive.</li>
             </ul>
           </div>
           <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
