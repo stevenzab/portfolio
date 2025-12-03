@@ -4,8 +4,6 @@ import Swal from "sweetalert2";
 
 const ContactPage = () => {
 
-  const [result, setResult] = useState("");
-
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -111,7 +109,6 @@ const ContactPage = () => {
                 <li>• Missions freelance</li>
                 <li>• Projets à temps partiel</li>
                 <li>• Opportunités CDI</li>
-                <li>• Collaborations ponctuelles</li>
               </ul>
             </div>
           </div>
