@@ -116,7 +116,7 @@ export default function NavBar() {
                   Projets
                 </Link>
               </li>
-              {/* <li className="mx-4 my-6 md:my-0">
+              <li className="mx-4 my-6 md:my-0">
                 <Link
                   href="/contact"
                   className="md:text-xl text-sm hover:text-green-600 duration-500 text-black flex items-center"
@@ -130,7 +130,7 @@ export default function NavBar() {
                   />
                   Contact
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>
