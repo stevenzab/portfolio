@@ -1,30 +1,52 @@
 import { Mail, Phone, MapPin, Send, Github, Linkedin } from "lucide-react";
-import { useState } from "react";
+import { useState, FormEvent } from "react";
 import Swal from "sweetalert2";
 
 const ContactPage = () => {
 
   const [result, setResult] = useState("");
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
-    formData.append("access_key", process.env.FORM_ACCESS_KEY);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
-
-    const data = await response.json();
-    if (data.success) {
-        Swal.fire({
-          title: "Success!",
-          text: "Your message has been sent successfully.",
-          icon: "success"
-        });
+    const payload = {
+      name: formData.get('name')?.toString() || '',
+      email: formData.get('email')?.toString() || '',
+      message: formData.get('message')?.toString() || ''
     };
-  }
+
+    try {
+      const response = await fetch('/api/send-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        Swal.fire({
+          title: 'Success!',
+          text: 'Your message has been sent successfully.',
+          icon: 'success'
+        });
+        form.reset();
+      } else {
+        Swal.fire({
+          title: 'Error',
+          text: data.message || 'Something went wrong.',
+          icon: 'error'
+        });
+      }
+    } catch (err: any) {
+      Swal.fire({
+        title: 'Error',
+        text: err?.message || 'Network error',
+        icon: 'error'
+      });
+    }
+  };
 
   return (
     <div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
