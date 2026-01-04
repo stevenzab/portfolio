@@ -99,18 +99,24 @@ const HomePage = () => {
                 Développeur FullStack C# | .NET8
               </h3>
             </div>
-            <p className="text-gray-600 text-sm">
-              SPVIE ASSURANCE • Novembre 2024 - Août 2025
+            <div className="mb-4 pb-4 border-b border-gray-200">
+              <p className="text-sm font-semibold text-gray-900">SPVIE ASSURANCE</p>
+              <p className="text-xs text-gray-500 font-medium">Novembre 2024 - Août 2025</p>
+            </div>
+            <p className="text-gray-700 text-sm mb-4 leading-relaxed">
+              Amélioration du Back-Office Sofia: Développement et maintenance de module existant de Sofia
             </p>
             <ul className="list-disc list-inside text-gray-800 mt-3 space-y-1">
-              <li>Développements itératifs en méthode Agile (sprints 2 semaines).</li>
-              <li>Conception et intégration d’API RESTful.</li>
-              <li>Création de composants modulaires, gestion du state via services injectables, data-binding avancé, formulaires dynamiques avec validation côté client.</li>
-              <li>Refactorisation et optimisation du code.</li>
-              <li>Application de la POO pour la maintenabilité.</li>
-              <li>Application des principes SOLID, respect du TDD, séparation claire des responsabilités pour garantir maintenabilité et évolutivité.</li>
-              <li>Participation aux revues de code collaboratives.</li>
-              <li>Utilisation d’abstractions, interfaces, héritage et encapsulation pour concevoir une architecture robuste et évolutive.</li>
+              <li>Conception, développement et maintenance de modules existants</li>
+              <li>Résolution de bugs en production pour assurer la continuité des services</li>
+              <li>Conception et planification de jobs automatisés pour la mise à jour des données et l’exécution de tâches critiques (nettoyage, synchronisation, reporting).</li>
+              <li>Optimisation des requêtes SQL, réduisant le temps d’exécution de 15s à 1s.</li>
+              <li>Amélioration des modules de gestion des courtiers pour une meilleure performance.</li>
+              <li>Code review, tests unitaires et suivi de la qualité via SonarQube (>70% Quality Code).</li>
+              <li>Application des principes SOLID, respect du TDD et séparation claire des responsabilités pour garantir maintenabilité et évolutivité.</li>
+              <li>Utilisation de l’injection de dépendances pour favoriser la testabilité et la modularité.</li>
+              <li>Ajout de mécanismes de traçabilité sur les échéanciers et mise en place d’un suivi de l’exécution (logs, monitoring, alertes) pour assurer fiabilité.</li>
+              <li>Participation à des sprints de 2 semaines pour planifier et livrer les fonctionnalités de manière itérative.</li>
             </ul>
           </div>
           <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
@@ -120,17 +126,25 @@ const HomePage = () => {
                 Développeur FullStack React | Node.js
               </h3>
             </div>
-            <p className="text-gray-600 text-sm">
-              Pathline • Septembre 2024 - Octobre 2024
+            <div className="mb-4 pb-4 border-b border-gray-200">
+              <p className="text-sm font-semibold text-gray-900">Pathline</p>
+              <p className="text-xs text-gray-500 font-medium">Septembre 2024 - Octobre 2024</p>
+            </div>
+            <p className="text-gray-700 text-sm mb-4 leading-relaxed">
+              SAAS, Développement de fonctionnalités pour améliorer l'expérience utilisateur et faciliter les interactions entre mentors et mentorés sur la plateforme.
             </p>
             <ul className="list-disc list-inside text-gray-800 mt-3 space-y-1">
-              <li>Diagnostiqué et résolu des problèmes afin d'optimiser les performances du site web.</li>
-              <li>Amélioré la structure et la lisibilité du code par une refactorisation ciblée.</li>
-              <li>Développé et implanté des routes RESTful pour affiner la navigation au sein de l'application.</li>
-              <li>Participation aux revues de code collaboratives.</li>
-              <li>Application de la POO pour la maintenabilité.</li>
-              <li>Création de tests unitaires pour assurer la robustesse du code.</li>
-              <li>Collaboration avec l'équipe de design pour améliorer l'expérience utilisateur.</li>
+              <li>Mise en place de composants React réutilisables et maintenables.</li>
+              <li>Collaboration avec le designer pour intégrer des interfaces UI/UX cohérentes et ergonomiques.</li>
+              <li>Optimisation de l’expérience utilisateur à travers une réduction des temps de chargement et des interactions plus fluides.</li>
+              <li>Création et développement d’API RESTful avec nodeJS et express pour gérer les données des utilisateurs et les interactions mentor / mentoré.</li>
+              <li>Implémentation de tests unitaires avec Jest pour garantir la fiabilité des fonctionnalités.</li>
+              <li>Debugging et résolution d’incidents en production, en tenant compte des retours clients et en corrigeant rapidement les anomalies.</li>
+              <li>Optimisation des requêtes base de données et du flux de données pour améliorer les performances globales.</li>
+              <li>Participation aux revues de code pour assurer la cohérence et la qualité technique des livrables.</li>
+              <li>Conception et développement selon des principe de maintenabilité et réutilisabilité du code.</li>
+              <li>Amélioration des temps de chargement côté client et de la réactivité des API.</li>
+              <li>Optimisation des requêtes et traitements côté serveur pour réduire la charge sur la base de données et améliorer la scalabilité de la plateforme.</li>
             </ul>
           </div>
           <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
@@ -140,19 +154,26 @@ const HomePage = () => {
                 Développeur FrontEnd React | Figma | NextJS
               </h3>
             </div>
-            <p className="text-gray-600 text-sm">
-              Federage • Juin 2023 - Août 2023
+            <div className="mb-4 pb-4 border-b border-gray-200">
+              <p className="text-sm font-semibold text-gray-900">Federage</p>
+              <p className="text-xs text-gray-500 font-medium">Juin 2023 - Août 2023</p>
+            </div>
+            
+            <p className="text-gray-700 text-sm mb-4 leading-relaxed">
+              Plateforme collaborative de mise en relation projets/talents. Développement frontend d'une 
+              marketplace permettant aux porteurs de projets de publier leurs besoins et aux professionnels 
+              de rejoindre des projets correspondant à leurs compétences.
             </p>
             <ul className="list-disc list-inside text-gray-800 mt-3 space-y-1">
-              <li>Géré la maintenance de l'interface utilisateur des applications web pour une expérience optimale.</li>
-              <li>Conçu des maquettes interactives à l'aide de Figma, améliorant le design UX.</li>
-              <li>Créé des parcours utilisateurs et scénarios interactifs, enrichissant l'expérience client.</li>
-              <li>Développé et configuré des routes RESTful pour assurer une intégration fluide des données.</li>
-              <li>Création de tests unitaires pour assurer la robustesse du code.</li>
-              <li>Collaboration avec l'équipe de design pour améliorer l'expérience utilisateur.</li>
-              <li>Réalisation de prototypes fonctionnels pour valider les choix de design.</li>
-              <li>Tests utilisateurs pour recueillir des retours et ajuster les interfaces.</li>
-              <li>Implémentation de solutions pour améliorer la performance de l'application.</li>
+              <li>Conception de maquettes interactives sur Figma.</li>
+              <li>Création de parcours utilisateurs complets: wireframes, personas, storyboards.</li>
+              <li>Collaboration avec l’équipe design et produit pour traduire les besoins métiers en solutions techniques.</li>
+              <li>Implémentation d’interfaces web responsives et adaptées à tous les supports (desktop, mobile, tablette).</li>
+              <li>Utilisation de NextJS, React, Typescript et TailwindCSS pour garantir des composants modulaires et réutilisables.</li>
+              <li>Correction de bugs visuels et amélioration continue des fonctionnalités existantes.</li>
+              <li>Optimisation des performances frontend, réduction des temps de chargement et amélioration de la fluidité des interactions.</li>
+              <li>Réalisation de test unitaire avec JEST.</li>
+              <li>Implémentation de routes RESTful avec Drupal.</li>
             </ul>
           </div>
           <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
@@ -162,15 +183,20 @@ const HomePage = () => {
                 Développeur FullStack C# | ASP.NET MVC
               </h3>
             </div>
-            <p className="text-gray-600 text-sm">
-              SPVIE ASSURANCE • Août 2021 - Décembre 2021
+            <div className="mb-4 pb-4 border-b border-gray-200">
+              <p className="text-sm font-semibold text-gray-900">SPVIE ASSURANCE</p>
+              <p className="text-xs text-gray-500 font-medium">Août 2021 - Décembre 2021</p>
+            </div>
+            <p className="text-gray-700 text-sm mb-4 leading-relaxed">
+              Outil d'analyse des contributions développeurs, développement d'une application interne permettant de visualiser et analyser l'activité de développement des équipes IT via les métriques de pull requests par repository et par développeur.
+              Refactorer le code et réaliser des tests unitaires
             </p>
             <ul className="list-disc list-inside text-gray-800 mt-3 space-y-1">
               <li>Refactorisation: simplification et optimisation du code.</li>
               <li>Développement de nouvelles fonctionnalités pour améliorer l'expérience utilisateur.</li>
               <li>Documentation: création de documents techniques pour faciliter la maintenance.</li>
               <li>Linq: utilisation de Linq pour simplifier les requêtes de données.</li>
-              <li>Tests: mise en place de tests unitaires pour garantir la qualité du code.</li>
+              <li>Réalisation de tests unitaires avec MSTest pour assurer la fiabilité du code.</li>
             </ul>
           </div>
         </div>
