@@ -112,7 +112,7 @@ const HomePage = () => {
               <li>Conception et planification de jobs automatisés pour la mise à jour des données et l’exécution de tâches critiques (nettoyage, synchronisation, reporting).</li>
               <li>Optimisation des requêtes SQL, réduisant le temps d’exécution de 15s à 1s.</li>
               <li>Amélioration des modules de gestion des courtiers pour une meilleure performance.</li>
-              <li>Code review, tests unitaires et suivi de la qualité via SonarQube (>70% Quality Code).</li>
+              <li>Code review, tests unitaires et suivi de la qualité via SonarQube (&gt;70% Quality Code).</li>
               <li>Application des principes SOLID, respect du TDD et séparation claire des responsabilités pour garantir maintenabilité et évolutivité.</li>
               <li>Utilisation de l’injection de dépendances pour favoriser la testabilité et la modularité.</li>
               <li>Ajout de mécanismes de traçabilité sur les échéanciers et mise en place d’un suivi de l’exécution (logs, monitoring, alertes) pour assurer fiabilité.</li>
