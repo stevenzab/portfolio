@@ -81,11 +81,8 @@ public/                # Fichiers statiques (favicon, CV, etc.)
 - CV : remplacer le fichier dans public et mettre à jour les liens de téléchargement.
 
 ## 🚢 Déploiement
-### Vercel (recommandé)
-1. Pousser sur GitHub
-2. Importer le repo sur Vercel
-3. Définir la variable d’environnement FORM_ACCESS_KEY
-4. Build et prévisualisation automatiques à chaque commit
+### Vercel
+- Déjà en ligne ici : https://portfolio-uk7m-stevenzabs-projects.vercel.app/
 
 ### Autres plateformes
 ```bash
