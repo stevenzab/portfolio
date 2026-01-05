@@ -1,121 +1,106 @@
-# Portfolio Steven ZABANDITH
+# Portfolio
 
-## 🚀 Portfolio moderne et responsive
+Portfolio moderne et responsive développé avec Next.js 14, Tailwind CSS et TypeScript. Il présente les compétences, expériences et projets et inclut un formulaire de contact connecté à Web3Forms.
 
-Bienvenue sur mon portfolio personnel ! Ce site vitrine présente mes compétences, mon expérience et mes projets en tant que développeur FullStack.
+## ✨ Points forts
+- UI soignée, animations douces, thème beige/bleu/violet
+- Sections complètes : accueil, compétences, expériences, projets, à propos, contact
+- Design responsive (desktop, tablette, mobile)
+- Formulaire de contact prêt à l’emploi (Web3Forms + SweetAlert2)
+- Icônes Lucide React et typage TypeScript
 
-## ✨ Fonctionnalités
+## 📦 Stack
+- Framework : Next.js 14 (App Router côté styles globaux, Pages Router côté vues)
+- Langage : React 18 + TypeScript
+- Style : Tailwind CSS + classes utilitaires custom (globals.css)
+- Icônes : lucide-react
+- Formulaire : Web3Forms (API) + sweetalert2 (feedback)
 
-- **Design moderne** : Interface épurée et professionnelle
-- **Responsive Design** : Optimisé pour tous les appareils
-- **Performance optimisée** : Chargement rapide et SEO-friendly
-
-## 🛠️ Technologies utilisées
-
-- **Frontend** : Next.js 14, React 18, TypeScript
-- **Styling** : Tailwind CSS
-- **Icons** : Lucide React
-- **Deployment** : Vercel (recommandé)
-
-## 📱 Pages
-
-- **Accueil** : Hero section, compétences, expérience
-- **À propos** : Présentation détaillée, parcours professionnel
-- **Projets** : Portfolio de projets avec filtres
-- **Contact** : Formulaire de contact et informations
-
-## 🏃‍♂️ Installation et utilisation
-
-1. **Cloner le repository**
+## 🚀 Prise en main
+1) Cloner le dépôt
 ```bash
 git clone https://github.com/stevenzab/portfolio
 cd portfolio
 ```
-
-2. **Installer les dépendances**
+2) Installer les dépendances
 ```bash
 npm install
 ```
-
-3. **Lancer le serveur de développement**
+3) Démarrer le serveur de dev
 ```bash
 npm run dev
 ```
-
-4. **Ouvrir dans le navigateur**
+4) Ouvrir le site
 ```
 http://localhost:3000
 ```
 
-## 📁 Structure du projet
-
+### Variables d’environnement
+Le formulaire de contact envoie les messages via Web3Forms.
+Créer un fichier .env.local à la racine :
+```bash
+FORM_ACCESS_KEY=your_web3forms_access_key
 ```
-├── app/
-│   ├── globals.css          # Styles globaux et animations
-│   └── favicon.ico
-├── components/
-│   ├── navbar.tsx           # Navigation principale
-│   ├── footer.tsx           # Pied de page
-│   └── layout.tsx           # Layout principal
-├── pages/
-│   ├── index.tsx            # Page d'accueil
-│   ├── about-page.tsx       # Page À propos
-│   ├── projects.tsx         # Page Projets
-│   └── contact.tsx          # Page Contact
-├── assets/                  # Icônes et images
-└── public/                  # Assets statiques
+Clé récupérable sur https://web3forms.com/.
+
+## 📁 Structure
+```
+app/
+	globals.css          # Styles globaux, animations, utilitaires
+components/
+	navbar.tsx           # Barre de navigation
+	footer.tsx           # Pied de page
+	layout.tsx           # Layout partagé
+pages/
+	index.tsx            # Accueil (hero, compétences, expériences, CTA)
+	about-page.tsx       # Parcours, compétences détaillées, passions
+	projects.tsx         # Grille de projets (données inline)
+	contact.tsx          # Formulaire + coordonnées
+	api/send-form.ts     # Proxy Web3Forms pour le formulaire
+assets/                # Images locales importées dans projects
+public/                # Fichiers statiques (favicon, CV, etc.)
 ```
 
-## 🎨 Personnalisation
+## 🧭 Navigation & contenu
+- Accueil : présentation, CTA contact et téléchargement de CV, stacks clés, expériences, projets récents.
+- À propos : bio détaillée, expertises front/back/outils, passions, parcours académique, CTA CV.
+- Projets : liste statique avec tags techno, statut, features et visuels (imports ou gradients).
+- Contact : coordonnées, disponibilité, formulaire Web3Forms avec alertes de succès/erreur.
 
-### Couleurs
-Le thème principal utilise une palette de couleurs harmonieuse :
-- **Primaire** : Bleu (#3B82F6)
-- **Secondaire** : Violet (#8B5CF6)
-- **Arrière-plan** : Beige chaud (#FAF2D9)
+## 🔧 Scripts
+- `npm run dev` : serveur de développement
+- `npm run build` : build de production
+- `npm run start` : serveur Next en mode production
+- `npm run lint` : linting ESLint
 
-### Contenu
-Pour personnaliser le contenu :
-1. Modifiez les informations personnelles dans chaque page
-2. Ajoutez vos propres projets dans `projects.tsx`
-3. Mettez à jour les liens sociaux et coordonnées
+## 🎨 Personnalisation rapide
+- Couleurs / animation : modifier les utilitaires dans app/globals.css.
+- Contenu texte : éditer les sections dans pages/index.tsx, pages/about-page.tsx, pages/projects.tsx, pages/contact.tsx.
+- Projets : mettre à jour le tableau `projects` dans pages/projects.tsx (tech, features, liens demo/code).
+- Icônes : importés depuis lucide-react, interchangeables facilement.
+- CV : remplacer le fichier dans public et mettre à jour les liens de téléchargement.
 
-## 🚀 Déploiement
-
-### Vercel (Recommandé)
-1. Push sur GitHub
-2. Connectez votre repository à Vercel
-3. Déploiement automatique à chaque commit
+## 🚢 Déploiement
+### Vercel (recommandé)
+1. Pousser sur GitHub
+2. Importer le repo sur Vercel
+3. Définir la variable d’environnement FORM_ACCESS_KEY
+4. Build et prévisualisation automatiques à chaque commit
 
 ### Autres plateformes
 ```bash
-# Build de production
 npm run build
-
-# Démarrer en production
 npm start
 ```
+Pensez à ajouter FORM_ACCESS_KEY sur l’hébergeur choisi.
 
-## 📈 Optimisations SEO
-
-- Meta tags optimisées
-- Structure HTML sémantique
-- Images optimisées
-- Performance élevée
-- Mobile-first design
-
-## 🤝 Contribution
-
-Les suggestions d'amélioration sont les bienvenues ! N'hésitez pas à :
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité
-3. Commiter vos changements
-4. Pousser vers la branche
-5. Ouvrir une Pull Request
+## ✅ Contrôles qualité
+- Responsive mobile/desktop
+- Sémantique et SEO de base
+- Animations légères pour la perception de fluidité
+- Lint via ESLint (config Next.js)
 
 ## 📞 Contact
-
-**Steven ZABANDITH**
 - Email : zabandithsteven@gmail.com
-- LinkedIn : [stevenzab](https://linkedin.com/in/stevenzab)
-- GitHub : [stevenzab](https://github.com/stevenzab)
+- LinkedIn : https://linkedin.com/in/stevenzab
+- GitHub : https://github.com/stevenzab
