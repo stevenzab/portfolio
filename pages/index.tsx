@@ -1,9 +1,50 @@
 import { Briefcase, Mail, Github, Linkedin, Download, Code, Palette, Database } from "lucide-react";
 import Link from "next/link";
+import Head from "next/head";
 
 const HomePage = () => {
   return (
-<div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+    <>
+      <Head>
+        <title>Steven ZABANDITH - Développeur FullStack React, Next.js, .NET</title>
+        <meta name="description" content="Développeur FullStack spécialisé en React, Next.js, TypeScript et .NET 8. Création d'applications web modernes et performantes avec méthode Agile." />
+        <meta name="keywords" content="développeur fullstack, React, Next.js, TypeScript, .NET, C#, développeur web, Angular, Node.js" />
+        <meta name="author" content="Steven ZABANDITH" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/" />
+        <meta property="og:title" content="Steven ZABANDITH - Développeur FullStack" />
+        <meta property="og:description" content="Développeur FullStack spécialisé en React, Next.js, TypeScript et .NET 8" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Steven ZABANDITH - Développeur FullStack" />
+        <meta name="twitter:description" content="Développeur FullStack spécialisé en React, Next.js et .NET" />
+        
+        <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/" />
+        
+        {/* Schema.org JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Steven ZABANDITH",
+              "jobTitle": "Développeur FullStack",
+              "url": "https://portfolio-uk7m-stevenzabs-projects.vercel.app",
+              "sameAs": [
+                "https://github.com/stevenzab",
+                "https://www.linkedin.com/in/stevenzab/"
+              ],
+              "knowsAbout": ["React", "Next.js", "TypeScript", ".NET", "C#", "Node.js", "Angular"],
+              "description": "Développeur FullStack spécialisé en React, Next.js, TypeScript et .NET 8"
+            })
+          }}
+        />
+      </Head>
+      <main className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
       {/* Hero Section */}
       <section className="relative py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -274,7 +315,8 @@ const HomePage = () => {
         </div>
       </section>
       </div>
-    </div>
+    </main>
+    </>
   );
 };
 

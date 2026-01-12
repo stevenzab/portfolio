@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-uk7m-stevenzabs-projects.vercel.app/sitemap.xml

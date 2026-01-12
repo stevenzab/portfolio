@@ -1,9 +1,19 @@
-
 import { User, Code, Trophy, Heart, Download, MapPin, Calendar } from "lucide-react";
+import Head from "next/head";
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+    <>
+      <Head>
+        <title>À propos - Steven ZABANDITH | Développeur FullStack</title>
+        <meta name="description" content="Découvrez mon parcours de développeur FullStack, mes compétences en React, Next.js, .NET, et ma passion pour le développement web moderne." />
+        <meta name="keywords" content="développeur fullstack, parcours, compétences, React, Next.js, .NET, TypeScript" />
+        <meta property="og:title" content="À propos - Steven ZABANDITH" />
+        <meta property="og:description" content="Découvrez mon parcours de développeur FullStack et mes compétences techniques" />
+        <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/about-page" />
+        <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/about-page" />
+      </Head>
+      <main className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
       <div className="max-w-4xl mx-auto py-16 px-4">
         {/* Header */}
         <div className="text-center mb-12">
@@ -194,7 +204,8 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
+    </>
   );
 };
 

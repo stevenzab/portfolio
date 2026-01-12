@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Send, Github, Linkedin } from "lucide-react";
 import { useState, FormEvent } from "react";
+import Head from "next/head";
 import Swal from "sweetalert2";
 
 const ContactPage = () => {
@@ -47,7 +48,17 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+    <>
+      <Head>
+        <title>Contact - Steven ZABANDITH | Développeur FullStack</title>
+        <meta name="description" content="Contactez-moi pour discuter de vos projets web. Développeur FullStack disponible pour des missions en React, Next.js, .NET et développement d'applications." />
+        <meta name="keywords" content="contact développeur, freelance, mission, React, Next.js, .NET, développement web" />
+        <meta property="og:title" content="Contact - Steven ZABANDITH" />
+        <meta property="og:description" content="Contactez-moi pour vos projets de développement web" />
+        <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/contact" />
+        <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/contact" />
+      </Head>
+      <main className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
       <div className="max-w-6xl mx-auto py-16 px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -170,7 +181,8 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
+    </>
   );
 };
 

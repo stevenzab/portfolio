@@ -1,6 +1,7 @@
 import { Code, Database, Palette, Github, ExternalLink, Calendar, Users } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 import fopagacherImage from "../assets/fopagacher.png";
 import SpvieAssurance from "../assets/spvie.png";
 
@@ -185,7 +186,17 @@ const ProjectsPage = () => {
   };
 
   return (
-    <div className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+    <>
+      <Head>
+        <title>Projets - Steven ZABANDITH | Portfolio Développeur FullStack</title>
+        <meta name="description" content="Découvrez mes projets de développement web : applications React, Next.js, Angular, .NET, API REST, et solutions fullstack modernes." />
+        <meta name="keywords" content="projets développeur, portfolio, React, Next.js, .NET, Angular, API REST, développement web" />
+        <meta property="og:title" content="Projets - Steven ZABANDITH" />
+        <meta property="og:description" content="Portfolio de mes projets de développement web et applications fullstack" />
+        <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
+        <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
+      </Head>
+      <main className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
       <div className="max-w-6xl mx-auto py-16 px-4">
         {/* Header */}
         <div className="text-center mb-12">
@@ -266,39 +277,6 @@ const ProjectsPage = () => {
                   </ul>
                   )}
                 </div>
-
-                {/* Actions */}
-                {/* <div className="flex gap-3">
-                  {project.githubUrl ? (
-                    <a 
-                      href={project.githubUrl}
-                      className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-medium transition"
-                    >
-                      <Github className="w-4 h-4" />
-                      Code source
-                    </a>
-                  ) : (
-                    <span className="flex items-center gap-2 text-gray-400 font-medium">
-                      <Github className="w-4 h-4" />
-                      Privé
-                    </span>
-                  )}
-                  
-                  {project.liveUrl ? (
-                    <a 
-                      href={project.liveUrl}
-                      className="flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium transition"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      Voir le projet
-                    </a>
-                  ) : (
-                    <span className="flex items-center gap-2 text-gray-400 font-medium">
-                      <ExternalLink className="w-4 h-4" />
-                      Non disponible
-                    </span>
-                  )}
-                </div> */}
               </div>
             </div>
           ))}
@@ -319,17 +297,18 @@ const ProjectsPage = () => {
                     <Github className="w-5 h-5" />
                     Voir GitHub
                 </Link>
-              {/* <a 
+              <a 
                 href="/contact" 
                 className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 py-3 rounded-lg font-semibold transition"
               >
                 Me contacter
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
+    </>
   );
 };
 
