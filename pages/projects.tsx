@@ -196,7 +196,7 @@ const ProjectsPage = () => {
         <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
         <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
       </Head>
-      <main className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+    <main className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
       <div className="max-w-6xl mx-auto py-16 px-4">
         {/* Header */}
         <div className="text-center mb-12">
@@ -297,12 +297,12 @@ const ProjectsPage = () => {
                     <Github className="w-5 h-5" />
                     Voir GitHub
                 </Link>
-              <a 
+              <Link
                 href="/contact" 
                 className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 py-3 rounded-lg font-semibold transition"
               >
                 Me contacter
-              </a>
+              </Link>
             </div>
           </div>
         </div>
