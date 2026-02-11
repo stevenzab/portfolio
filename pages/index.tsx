@@ -136,7 +136,6 @@ const HomePage = () => {
         <h2 className="text-3xl font-bold mb-8 text-center text-white">Expérience Professionnelle</h2>
         <div className="relative pl-6 border-l border-white/10 space-y-8">
           <div className="relative pb-8 border-b border-white/10">
-            <span className="absolute -left-[9px] top-2 h-4 w-4 rounded-full bg-blue-400 shadow-[0_0_0_6px_rgba(59,130,246,0.15)]" />
             <div className="py-2">
               <div className="flex items-center gap-3 mb-2">
                 <Briefcase className="w-6 h-6 text-blue-400" />
@@ -167,7 +166,6 @@ const HomePage = () => {
           </div>
 
           <div className="relative pb-8 border-b border-white/10">
-            <span className="absolute -left-[9px] top-2 h-4 w-4 rounded-full bg-blue-400 shadow-[0_0_0_6px_rgba(59,130,246,0.15)]" />
             <div className="py-2">
               <div className="flex items-center gap-3 mb-2">
                 <Briefcase className="w-6 h-6 text-blue-400" />
@@ -199,7 +197,6 @@ const HomePage = () => {
           </div>
 
           <div className="relative pb-8 border-b border-white/10">
-            <span className="absolute -left-[9px] top-2 h-4 w-4 rounded-full bg-blue-400 shadow-[0_0_0_6px_rgba(59,130,246,0.15)]" />
             <div className="py-2">
               <div className="flex items-center gap-3 mb-2">
                 <Briefcase className="w-6 h-6 text-blue-400" />
@@ -232,7 +229,6 @@ const HomePage = () => {
           </div>
 
           <div className="relative">
-            <span className="absolute -left-[9px] top-2 h-4 w-4 rounded-full bg-blue-400 shadow-[0_0_0_6px_rgba(59,130,246,0.15)]" />
             <div className="py-2">
               <div className="flex items-center gap-3 mb-2">
                 <Briefcase className="w-6 h-6 text-blue-400" />
