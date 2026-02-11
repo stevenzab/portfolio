@@ -181,8 +181,8 @@ const ProjectsPage = () => {
 
   const getStatusColor = (status: string) => {
     return status === "En cours" 
-      ? "bg-blue-100 text-blue-800" 
-      : "bg-green-100 text-green-800";
+      ? "bg-blue-500/20 text-blue-200" 
+      : "bg-emerald-500/20 text-emerald-200";
   };
 
   return (
@@ -196,14 +196,16 @@ const ProjectsPage = () => {
         <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
         <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
       </Head>
-    <main className="min-h-screen" style={{backgroundColor: '#FAF2D9'}}>
+    <main className="relative min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+      <div className="pointer-events-none absolute -top-24 -right-24 h-80 w-80 rounded-full bg-gradient-to-br from-blue-500/30 to-purple-600/30 blur-3xl" />
+      <div className="pointer-events-none absolute -bottom-20 -left-20 h-80 w-80 rounded-full bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 blur-3xl" />
       <div className="max-w-6xl mx-auto py-16 px-4">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Mes Projets
           </h1>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             Découvrez une sélection de projets sur lesquels j'ai travaillé, 
             allant du développement frontend aux solutions backend complètes.
           </p>
@@ -228,7 +230,7 @@ const ProjectsPage = () => {
         {/* Grille de projets */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+            <div key={project.id} className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform-gpu hover:-translate-y-1">
               {/* Image du projet */}
               <div className="h-48 relative overflow-hidden">
                 {renderProjectImage(project)}
@@ -242,21 +244,21 @@ const ProjectsPage = () => {
               {/* Contenu */}
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-xl font-bold text-gray-900">{project.title}</h3>
-                  <div className="flex items-center text-gray-500 text-sm">
+                  <h3 className="text-xl font-bold text-white">{project.title}</h3>
+                  <div className="flex items-center text-slate-400 text-sm">
                     <Calendar className="w-4 h-4 mr-1" />
                     {project.date}
                   </div>
                 </div>
 
-                <p className="text-gray-600 mb-4">{project.description}</p>
+                <p className="text-slate-300 mb-4">{project.description}</p>
 
                 {/* Technologies */}
                 <div className="mb-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">Technologies</h4>
+                  <h4 className="font-semibold text-white mb-2">Technologies</h4>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech, index) => (
-                      <span key={index} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">
+                      <span key={index} className="bg-white/10 text-slate-200 px-3 py-1 rounded-full text-sm">
                         {tech}
                       </span>
                     ))}
@@ -265,12 +267,12 @@ const ProjectsPage = () => {
 
                 {/* Fonctionnalités */}
                 <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 mb-2">Fonctionnalités clés</h4>
+                  <h4 className="font-semibold text-white mb-2">Fonctionnalités clés</h4>
                   {project.features.length > 0 && (
-                  <ul className="text-gray-600 text-sm space-y-1">
+                  <ul className="text-slate-300 text-sm space-y-1">
                       {project.features.map((feature, index) => (
                         <li key={index} className="flex items-center">
-                          <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                          <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
                           {feature}
                         </li>
                       ))}
@@ -284,22 +286,22 @@ const ProjectsPage = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur shadow-lg p-8 max-w-2xl mx-auto transition transform-gpu hover:-translate-y-1">
+            <h2 className="text-2xl font-bold text-white mb-4">
               Intéressé par mon travail ?
             </h2>
-            <p className="text-gray-600 mb-6">
+            <p className="text-slate-300 mb-6">
               Consultez mon profil GitHub pour voir plus de projets ou contactez-moi 
               pour discuter d'une collaboration.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-                <Link href="https://github.com/stevenzab" className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/stevenzab" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2" target="_blank" rel="noopener noreferrer">
                     <Github className="w-5 h-5" />
                     Voir GitHub
                 </Link>
               <Link
                 href="/contact" 
-                className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 py-3 rounded-lg font-semibold transition"
+                className="border border-white/20 text-white hover:bg-white/10 px-6 py-3 rounded-lg font-semibold transition"
               >
                 Me contacter
               </Link>
