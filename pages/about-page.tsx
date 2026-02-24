@@ -13,7 +13,7 @@ const AboutPage = () => {
         <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/about-page" />
         <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/about-page" />
       </Head>
-      <main className="relative min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+      <main className="relative min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white overflow-hidden">
       <div className="pointer-events-none absolute -top-24 -right-24 h-80 w-80 rounded-full bg-gradient-to-br from-blue-500/30 to-purple-600/30 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-20 -left-20 h-80 w-80 rounded-full bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 blur-3xl" />
       <div className="max-w-4xl mx-auto py-16 px-4">
@@ -186,7 +186,7 @@ const AboutPage = () => {
               N'hésitez pas à me contacter pour discuter de vos besoins.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="/CV_DEVELOPER_FULLSTACK.pdf" download="CV_Développeur_Fullstack.pdf">
+              <a href="/CV_ZABANDITH_STEVEN.pdf" download="CV_ZABANDITH_STEVEN.pdf">
                 <button className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2">
                   <Download className="w-5 h-5" />
                   Télécharger mon CV

@@ -6,7 +6,7 @@ export default function Footer(): React.JSX.Element {
   return (
     <>
       <div className="text-white py-10 text-base bg-slate-950 border-t border-white/10">
-        <div className="max-w-screen-lg lg:mx-auto md:mx-auto sm:mx-auto flex flex-col md:flex-row justify-between">
+        <div className="max-w-screen-lg lg:mx-auto md:mx-auto sm:mx-auto flex flex-col md:flex-row justify-between px-4">
           <div className="flex-row md:items-center mb-5 md:mb-0 mx-auto">
             <p className="font-semibold mb-5 border-b border-white/20 text-center inline-block text-white">
               Steven

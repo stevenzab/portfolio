@@ -13,9 +13,9 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="sticky top-0 z-10">
+      <div className="sticky top-0 z-10 overflow-x-hidden">
         <div
-          className="md:flex md:flex-row w-full md:items-center md:justify-between p-4 bg-slate-950/80 backdrop-blur border-b border-white/10"
+          className="md:flex md:flex-row w-full md:items-center md:justify-between p-4 bg-slate-950/80 backdrop-blur border-b border-white/10 max-w-full"
         >
           <div className="md:flex items-center">
             <span className="text-2xl cursor-pointer relative md:left-8">

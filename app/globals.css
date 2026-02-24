@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prévenir le scroll horizontal */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 /* Animations personnalisées */
 @keyframes fadeInUp {
   from {

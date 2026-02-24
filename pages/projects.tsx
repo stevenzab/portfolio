@@ -196,7 +196,7 @@ const ProjectsPage = () => {
         <meta property="og:url" content="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
         <link rel="canonical" href="https://portfolio-uk7m-stevenzabs-projects.vercel.app/projects" />
       </Head>
-    <main className="relative min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+    <main className="relative min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white overflow-hidden">
       <div className="pointer-events-none absolute -top-24 -right-24 h-80 w-80 rounded-full bg-gradient-to-br from-blue-500/30 to-purple-600/30 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-20 -left-20 h-80 w-80 rounded-full bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 blur-3xl" />
       <div className="max-w-6xl mx-auto py-16 px-4">
