@@ -6,9 +6,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-slate-950 text-white overflow-x-hidden">
+    <div className="min-h-screen bg-slate-950 text-white">
       <Navbar />
-      <div className="overflow-x-hidden">
+      <div className="pt-10">
         {children}
       </div>
       <Footer />

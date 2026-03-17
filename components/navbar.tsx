@@ -13,7 +13,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="sticky top-0 z-10 overflow-x-hidden">
+      <div className="fixed top-0 inset-x-0 z-50">
         <div
           className="md:flex md:flex-row w-full md:items-center md:justify-between p-4 bg-slate-950/80 backdrop-blur border-b border-white/10 max-w-full"
         >
