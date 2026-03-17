@@ -145,6 +145,28 @@ const ProjectsPage = () => {
       liveUrl: "#",
       date: "2024",
       status: "Terminé"
+    },
+    {
+      id: 8,
+      title: "Application de Budget Personnel",
+      description: "Développement d'une application web pour la gestion du budget personnel, permettant de suivre les dépenses et les revenus.",
+      image: "gradient-purple-pink",
+      technologies: ["React", "Nextjs", "C#", "MongoDB", "Typescript", "Github", ".NET 8", "Azure DevOps"],
+      features: [
+        "Gestion des transactions (dépenses et revenus)",
+        "Catégorisation des dépenses",
+        "Visualisation des données avec des graphiques",
+        "Authentification et gestion des utilisateurs",
+        "API RESTful avec .NET 8",
+        "Stockage des données avec MongoDB",
+        "Déploiement sur Azure",
+        "Tests unitaires avec MSTest",
+        "API RESTful documentée avec Swagger",
+      ],
+      githubUrl: "#",
+      liveUrl: "#",
+      date: "2026",
+      status: "En cours"
     }
   ];
 
