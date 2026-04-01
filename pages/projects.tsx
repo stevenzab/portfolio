@@ -148,7 +148,7 @@ const ProjectsPage = () => {
     },
     {
       id: 8,
-      title: "Application de Budget Personnel",
+      title: "Financio",
       description: "Développement d'une application web pour la gestion du budget personnel, permettant de suivre les dépenses et les revenus.",
       image: "gradient-purple-pink",
       technologies: ["React", "Nextjs", "C#", "MongoDB", "Typescript", "Github", ".NET 8", "Azure DevOps"],
