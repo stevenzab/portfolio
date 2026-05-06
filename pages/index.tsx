@@ -99,18 +99,18 @@ const HomePage = () => {
       description: "Outil d'analyse des contributions développeurs, développement d'une application interne.",
       details: [
         "Développement et optimisation :",
-          "Simplification, restructuration et optimisation du code via une refactorisation approfondie.",
-          "Remplacement des références API par des requêtes LINQ pour une manipulation plus efficace des données.",
-          "Développement de nouvelles fonctionnalités pour visualiser et analyser les contributions des développeurs.",
-          "Tests et qualité :",
-          "Réalisation de tests unitaires avec MSTest pour assurer la fiabilité du code.",
-          "Mise en place de bonnes pratiques de code pour garantir la maintenabilité et la performance.",
-          "Méthodologie Agile :",
-          "Planification, estimation, priorisation et livraison itérative des fonctionnalités selon la méthodologie SCRUM.",
-          "Participation aux réunions de suivi et aux revues de sprint pour assurer l’alignement avec les besoins métier.",
-          "Documentation et communication :",
-          "Rédaction et gestion de la documentation des API pour assurer une bonne compréhension et utilisation par les autres équipes.",
-          "Collaboration avec les équipes IT pour recueillir les besoins et ajuster les fonctionnalités de l’outil."
+        "Simplification, restructuration et optimisation du code via une refactorisation approfondie.",
+        "Remplacement des références API par des requêtes LINQ pour une manipulation plus efficace des données.",
+        "Développement de nouvelles fonctionnalités pour visualiser et analyser les contributions des développeurs.",
+        "Tests et qualité :",
+        "Réalisation de tests unitaires avec MSTest pour assurer la fiabilité du code.",
+        "Mise en place de bonnes pratiques de code pour garantir la maintenabilité et la performance.",
+        "Méthodologie Agile :",
+        "Planification, estimation, priorisation et livraison itérative des fonctionnalités selon la méthodologie SCRUM.",
+        "Participation aux réunions de suivi et aux revues de sprint pour assurer l’alignement avec les besoins métier.",
+        "Documentation et communication :",
+        "Rédaction et gestion de la documentation des API pour assurer une bonne compréhension et utilisation par les autres équipes.",
+        "Collaboration avec les équipes IT pour recueillir les besoins et ajuster les fonctionnalités de l’outil."
       ]
     }
   ];
