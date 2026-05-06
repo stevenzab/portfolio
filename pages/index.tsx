@@ -29,11 +29,11 @@ const HomePage = () => {
       period: "Novembre 2024 - Août 2025",
       description: "Amélioration du Back-Office Sofia: Développement et maintenance de module existant de Sofia",
       details: [
-        "Front-end:",
+        "Front-end :",
         "Création de composants modulaires réutilisables avec Angular19, Gestion du state applicatif via des services injectables.",
         "Mise en place de data-binding avancé pour synchroniser les vues et la logique métier.",
         "Conception de formulaires dynamiques avec validation côté client pour améliorer l'expérience utilisateur.",
-        "Optimisation:",
+        "Optimisation :",
         "Utilisation de LINQ et Entity Framework pour concevoir des requêtes optimisées et réduire la charge SQL.",
         "Mise en place de bonnes pratiques de requêtage: filtrage, pagination, projections ciblées.",
         "Amélioration des performances globales grâce à la réduction de la consommation mémoire et à une meilleure gestion des temps d'exécution.",
@@ -42,7 +42,7 @@ const HomePage = () => {
         "Utilisation d'abstractions, interfaces, héritage et encapsulation pour concevoir une architecture robuste et cohérente.",
         "Qualité, tests et intégration Continue: Rédaction de tests unitaires avec MSTests.",
         "Participation active aux revues de code pour maintenir un haut niveau de qualité.",
-        "Back-end:",
+        "Back-end :",
         "Conception et implémentation d'API RESTful sécurisées.",
         "Intégration de MongoDB via des repositories, utilisation de DTO (Data Transfer Objects).",
         "Développement de services en arrière-plan: envoi d'emails automatiques, synchronisation de données, génération de rapports."
@@ -54,15 +54,21 @@ const HomePage = () => {
       period: "Septembre 2024 - Octobre 2024",
       description: "SAAS, Développement de fonctionnalités pour améliorer l'expérience utilisateur et faciliter les interactions entre mentors et mentorés sur la plateforme.",
       details: [
-        "Mise en place de composants React réutilisables et maintenables.",
-        "Collaboration avec le designer pour intégrer des interfaces UI/UX cohérentes et ergonomiques.",
-        "Optimisation de l'expérience utilisateur à travers une réduction des temps de chargement et des interactions plus fluides.",
-        "Création et développement d'API RESTful avec nodeJS et express.",
-        "Implémentation de tests unitaires avec Jest pour garantir la fiabilité des fonctionnalités.",
-        "Debugging et résolution d'incidents en production.",
-        "Optimisation des requêtes base de données et du flux de données.",
-        "Participation aux revues de code pour assurer la cohérence technique.",
-        "Conception et développement selon des principe de maintenabilité et réutilisabilité du code."
+        "Front-End :" ,
+        "Mise en place de composants React réutilisables et maintenables",
+        "Collaboration avec le designer pour intégrer des interfaces UI/UX cohérentes et ergonomiques",
+        "Optimisation de l’expérience utilisateur à traveus une réduction des temps de chargement et des interactions plus fluides.",
+        "Back-end :",
+        "Création et développement d’API RESTful avec nodeJS et express pour gérer les données des utilisateurs et les interactions mentor / mentoré.",
+        "Implémentation de tests unitaires avec Jest pour garantir la fiabilité des fonctionnalités",
+        "Debugging et résolution d’incidents en production, en tenant compte des retours clients et en corrigeant rapidement les anomalies",
+        "Optimisation des requêtes base de données et du flux de données pour améliorer les performances globales",
+        "Qualité et bonnes pratiques :",
+        "Participation aux revues de code pour assurer la cohérence et la qualité technique des livrables",
+        "Conception et développement selon des principe de maintenabilité et réutilisabilité du code",
+        "Optimisation :",
+        "Amélioration des temps de chargement côté client et de la réactivité des API",
+        "Optimisation des requêtes et traitements côté serveur pour réduire la charge sur la base de données et améliorer la scalabilité de la plateforme."
       ]
     },
     {
@@ -71,15 +77,19 @@ const HomePage = () => {
       period: "Juin 2023 - Août 2023",
       description: "Plateforme collaborative de mise en relation projets/talents. Développement frontend d'une marketplace.",
       details: [
-        "Conception de maquettes interactives sur Figma.",
-        "Création de parcours utilisateurs complets: wireframes, personas, storyboards.",
-        "Collaboration avec l'équipe design et produit pour traduire les besoins métiers en solutions techniques.",
-        "Implémentation d'interfaces web responsives et adaptées à tous les supports (desktop, mobile, tablette).",
-        "Utilisation de NextJS, React, Typescript et TailwindCSS pour garantir des composants modulaires et réutilisables.",
-        "Correction de bugs visuels et amélioration continue des fonctionnalités existantes.",
-        "Optimisation des performances frontend, réduction des temps de chargement.",
-        "Réalisation de test unitaire avec JEST.",
-        "Implémentation de routes RESTful avec Drupal."
+        "UX / UI :",
+        "Conception de maquettes interactives sur Figma",
+        "Création de parcours utilisateurs complets: wireframes, personas, storyboards",
+        "Collaboration avec l’équipe design et produit pour traduire les besoins métiers en solutions techniques",
+        "Front-End :",
+        "Implémentation d’interfaces web responsives et adaptées à tous les supports (desktop, mobile, tablette)",
+        "Utilisation de NextJS, React, Typescript et TailwindCSS pour garantir des composants modulaires et réutilisables",
+        "Correction de bugs visuels et amélioration continue des fonctionnalités existantes",
+        "Optimisation des performances frontend, réduction des temps de chargement et amélioration de la fluidité des interactions",
+        "Réalisation de test unitaire avec JEST",
+        "Back-end :",
+        "Implémentation de routes RESTful avec Drupal",
+        "Gestion de la communication entre le frontend et les services backend"
       ]
     },
     {
@@ -88,11 +98,19 @@ const HomePage = () => {
       period: "Août 2021 - Décembre 2021",
       description: "Outil d'analyse des contributions développeurs, développement d'une application interne.",
       details: [
-        "Refactorisation: simplification et optimisation du code.",
-        "Développement de nouvelles fonctionnalités pour améliorer l'expérience utilisateur.",
-        "Documentation: création de documents techniques pour faciliter la maintenance.",
-        "Linq: utilisation de Linq pour simplifier les requêtes de données.",
-        "Réalisation de tests unitaires avec MSTest pour assurer la fiabilité du code."
+        "Développement et optimisation :",
+          "Simplification, restructuration et optimisation du code via une refactorisation approfondie.",
+          "Remplacement des références API par des requêtes LINQ pour une manipulation plus efficace des données.",
+          "Développement de nouvelles fonctionnalités pour visualiser et analyser les contributions des développeurs.",
+          "Tests et qualité :",
+          "Réalisation de tests unitaires avec MSTest pour assurer la fiabilité du code.",
+          "Mise en place de bonnes pratiques de code pour garantir la maintenabilité et la performance.",
+          "Méthodologie Agile :",
+          "Planification, estimation, priorisation et livraison itérative des fonctionnalités selon la méthodologie SCRUM.",
+          "Participation aux réunions de suivi et aux revues de sprint pour assurer l’alignement avec les besoins métier.",
+          "Documentation et communication :",
+          "Rédaction et gestion de la documentation des API pour assurer une bonne compréhension et utilisation par les autres équipes.",
+          "Collaboration avec les équipes IT pour recueillir les besoins et ajuster les fonctionnalités de l’outil."
       ]
     }
   ];
@@ -238,10 +256,15 @@ const HomePage = () => {
                   <span className="text-slate-400">{exp.period}</span>
                 </div>
                 <p className="text-slate-300 text-sm mb-4 leading-relaxed">{exp.description}</p>
-                <ul className="list-disc list-inside text-slate-200 mt-3 space-y-1">
-                  {exp.details.map((detail, idx) => (
-                    <li key={idx}>{detail}</li>
-                  ))}
+                <ul className="text-slate-200 mt-3 space-y-1">
+                  {exp.details.map((detail, idx) => {
+                    const isCategory = detail.endsWith(':');
+                    return isCategory ? (
+                      <li key={idx} className="font-semibold text-slate-100 mt-3">{detail}</li>
+                    ) : (
+                      <li key={idx} className="list-disc list-inside">{detail}</li>
+                    );
+                  })}
                 </ul>
               </div>
             </div>
