@@ -26,7 +26,7 @@ const HomePage = () => {
     {
       title: "Développeur FullStack C# | .NET8",
       company: "SPVIE ASSURANCE",
-      period: "Novembre 2024 - Août 2025",
+      period: "Novembre 2024 - Décembre 2025",
       description: "Amélioration du Back-Office Sofia: Développement et maintenance de module existant de Sofia",
       details: [
         "Front-end :",
